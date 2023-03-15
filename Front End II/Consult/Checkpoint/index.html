@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Backlog</title>
+  </head>
+  <body>
+
+    <main class="main">
+
+      <div class="content">
+      <div class="register">
+
+        <h1 class="titles">Nova tarefa</h1>
+
+        <form action="" class="form" id="form">
+
+          <div>
+            <input
+            type="text"
+            id="taskName"
+            class="input task_name"
+            placeholder="Título"
+            required minlength="1"
+            />
+          
+        </div>
+
+
+        <div >
+          <input type="url" id="url" class="input url" placeholder="URL" required minlength="1"/>
+        </div>
+
+
+        <div >
+          <textarea
+            class="input text-area description"
+            id="description"
+            placeholder="Descrição"
+            required minlength="1"
+          ></textarea>
+        </div>
+
+        </form>
+
+        <div class="div_button">
+          <button id="createTaskButton" class="button" type="submit">Criar tarefa</button>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="titles">Backlog</h2>
+      </div>
+
+      <section class="tasks">
+
+      <div class="task_cards" id="taskCards">
+
+        <!-- <div class="card">
+          <img src="https://th.bing.com/th/id/OIP.yV0R68uQnkafF1ZA2riJvgHaE6?pid=ImgDet&rs=1" alt="">
+          <h3>Titulo</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iusto tempore veniam quia tenetur, ad nemo modi velit, in ea, nisi magni quibusdam ipsa obcaecati aliquid incidunt atque quos tempora.</p>
+        </div>
+        <div class="card">
+          <img src="https://th.bing.com/th/id/OIP.yV0R68uQnkafF1ZA2riJvgHaE6?pid=ImgDet&rs=1" alt="">
+          <h3>Titulo</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iusto tempore veniam quia tenetur, ad nemo modi velit, in ea, nisi magni quibusdam ipsa obcaecati aliquid incidunt atque quos tempora.</p>
+        </div>
+        <div class="card">
+          <img src="https://th.bing.com/th/id/OIP.yV0R68uQnkafF1ZA2riJvgHaE6?pid=ImgDet&rs=1" alt="">
+          <h3>Titulo</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iusto tempore veniam quia tenetur, ad nemo modi velit, in ea, nisi magni quibusdam ipsa obcaecati aliquid incidunt atque quos tempora.</p>
+        </div>
+        <div class="card">
+          <img src="https://th.bing.com/th/id/OIP.yV0R68uQnkafF1ZA2riJvgHaE6?pid=ImgDet&rs=1" alt="">
+          <h3>Titulo</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iusto tempore veniam quia tenetur, ad nemo modi velit, in ea, nisi magni quibusdam ipsa obcaecati aliquid incidunt atque quos tempora.</p>
+        </div> -->
+
+
+      </div>
+    </section>
+
+    </div>
+    </main>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
